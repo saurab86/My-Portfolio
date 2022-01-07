@@ -21,19 +21,25 @@
             </nav>
         </div>
      <div class="main">
-        <div class="infoContainer">
-            <div class="devInfo">
-                <div class="hello">Hi I am</div>
-                <div class="name">Saurav Karki</div>
-                <div class="about">Mobile App Developeer, Front End Designer</div>
-                <div class="moreabout">I am a CS Engineer, I love to code in Dart language, Java and Python</div>
-                <div class="buttons">
-                    <button>Download CV</button>
-                    <button>Contact Me</button>
-                </div>
+       <div class="contactform">
+           <h1>Contact me for work/general Enquies</h1>
+        <form>
+            <div class="mb-3">
+              <label for="clientemail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email and contact number with anyone else.</div>
             </div>
-            <div class="devPic"><img src="pic.jpg" alt="Picture"></div>
-        </div>
+            <div class="mb-3">
+              <label for="clientphone" class="form-label">Phone</label>
+              <input type="phone" class="form-control" id="clientphone">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="isclient">
+              <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+       </div>
      </div>
         </div>
     </div>
