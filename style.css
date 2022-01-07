@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -74,7 +75,7 @@ font-size: 65px;
     margin-top: 34px;
 }
 
-.buttons button{
+.btn{
     padding:  9px 14px;
     border-radius: 22px;
     color: white;
@@ -85,7 +86,22 @@ font-size: 65px;
     cursor: pointer;
 }
 
-.buttons button:hover{
+.btn-sm{
+    padding:  7px 13px;
+    margin: 10px 0;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 15;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.btn-sm:hover{
     background-color: white;
     color: dodgerblue;
 }
@@ -101,11 +117,14 @@ font-size: 65px;
 }
 
 .contactform h1{
-text-align: center;
+/* text-align: center; */
+font-family: 'Source Code Pro', monospace;
+padding: 12px 0;
+
 }
 
-.contactform div{
-    padding: 15px 0;
+.contactform form div{
+    padding: 10px 0;
     display: flex;
     flex-direction: column;
 }
@@ -118,7 +137,26 @@ text-align: center;
 }
 
 #emailHelp{
-    font-size: 11px;
+    font-size: 12px;
     color: rgb(52, 52, 202);
     margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+ 
+#form-check input{
+ width: 24px;   
+ margin: 3px 0;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.blogContainer h1{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 24px;
 }
